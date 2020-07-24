@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    
+    <header>
+        <div class="top">
+            <div class="logo">
+                <h3>Easy<span>rentals</span></h3>
+            </div>
+
+        <nav class="navbars">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+        </div> <!--top-->
+
+        <div id="slider">
+   
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            
+            <div id="slides">
+               
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">               
+                        <div class="slide-content">
+                          <img src="images/1.jpg" style="width:100%" >
+                          <div class="text">Finding a room is easy with us</div>
+                        </div>
+                     </div>
+         
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                           <img src="images/2.jpg" style="width:100%">
+                           <div class="text">Finding a room is easy with us</div>
+                        </div>
+                     </div>
+         
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                          <img src="images/3.jpg" style="width:100%">
+                          <div class="text">Finding a room is easy with us</div>
+                        </div>
+                     </div>
+         
+                     <div class="slide slide_4">
+                        <div class="slide-content">
+                          <img src="images/4.jpg" style="width:100%">
+                          <div class="text">Finding a room is easy with us</div>
+                        </div>
+                     </div>
+         
+                  </div>
+               </div>
+            </div>
+         
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+         </div>                      
+    </header>
+
+   <section class="middle">
+     <div class="searchbar">
+
+      <input type="search" placeholder="Location">
+
+      <label for="min-rent">Rent from</label>
+      <select id="min-rent">
+            <option>-</option>
+            <option>$150</option>
+            <option>$175</option>
+            <option>$200</option>
+            <option>$250</option> 
+      </select> 
+
+      <label for="max-rent">Rent to</label>
+      <select id="max-rent">
+            <option>-</option>           
+            <option>$275</option>
+            <option>$300</option>
+            <option>$350</option>  
+            <option>$400</option>
+            <option>$450</option>
+            <option>$500</option> 
+      </select> 
+
+      <input type="button" value="Search">
+     </div>
+
+     <h4>Recent ads</h4>
+
+     <div class="ads">
+      <div class="ad">
+          <img src="./images/5a.jpg" width="250px" height="200px">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, porro sapiente eligendi facere corrupti nisi itaque id hic nemo rem impedit veritatis dicta voluptas adipisci natus magni eum nostrum recusandae?</p>
+          <a href="#">see more</a>
+      </div>
+
+      <div class="ad">
+          <img src="./images/5b.jpg" width="250px" height="200px">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, porro sapiente eligendi facere corrupti nisi itaque id hic nemo rem impedit veritatis dicta voluptas adipisci natus magni eum nostrum recusandae?</p>
+          <a href="#">see more</a>
+      </div>
+
+      <div class="ad">
+          <img src="./images/5c.jpg" width="250px" height="200px">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, porro sapiente eligendi facere corrupti nisi itaque id hic nemo rem impedit veritatis dicta voluptas adipisci natus magni eum nostrum recusandae?</p>
+          <a href="#">see more</a>
+      </div>
+
+      <div class="ad">
+          <img src="./images/5d.jpg" width="250px" height="200px">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, porro sapiente eligendi facere corrupti nisi itaque id hic nemo rem impedit veritatis dicta voluptas adipisci natus magni eum nostrum recusandae?</p>
+          <a href="#">see more</a>
+      </div>
+
+  </div>
+
+  <div class="page">
+      <p>Page: </p>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">Next</a>
+  </div>
+   </section> <!--middle-->
+
+   <footer>
+      <div class="logo-footer">
+         <h3>Easy<span>rentals</span></h3>
+     </div>
+
+     <a href="#">Contact us</a>
+     <a href="#">Advertise with us</a>
+   </footer>
+
+</body>
+</html>

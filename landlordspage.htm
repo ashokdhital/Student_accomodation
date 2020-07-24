@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landlord</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <form id="landlord">
+        <h3>Create your ad here</h3><br>
+
+        <label for="description">Descripition</label>
+        <input type="textarea" id="description">
+
+        <label for="location">Address</label>
+        <input type="text" id="location">
+
+        <label for="rent">Rent(weekly)</label>
+        <input type="number" id="rent">
+
+        <label for="Bond">Bond</label>
+        <input type="number" id="Bond">
+
+        <label for="date">Available date</label>
+        <input type="date" id="date">
+
+        <div>
+            <input type="file">
+            <input type="submit" value="Upload">
+
+            <button type="button">Save</button>
+            <input type="submit">
+        </div>
+    </form>
+
+    <div class="saved-ad">
+        <h3>Saved ad</h3>
+        <a href="#">Preview ad</a>
+        <button type="button">edit</button>
+        <input type="submit">
+        
+    </div>
+
+
+</body>
+</html>
